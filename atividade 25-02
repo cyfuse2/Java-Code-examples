@@ -1,0 +1,40 @@
+public class ativ2 {
+    public static void main(String[] args) {
+        int A = 20;
+        int B = 4;
+        int C = 11;
+        int D = 7;
+        int E = 1;
+        int F = 13;
+
+        System.out.println(A<B);
+        System.out.println(C==5);
+        System.out.println(A==C);
+        System.out.println(D!=F);
+        System.out.println(A==(F+D));
+        System.out.println(B<=E);
+        System.out.println(C<A);
+        System.out.println(B==4);
+        System.out.println(E<=25);
+        boolean exp1 = (E+F)==(B+C-1);
+        System.out.println("A expressão é: " + exp1);
+        System.out.println(C*E>=10);
+        System.out.println(B*D<=16);
+        boolean exp2 = (A+16*B)>=(A/B-2);
+        System.out.println("A expressão é: " + exp2);
+        System.out.println(21/D==3);
+        boolean exp3 = (F+C*D-10)>=(F-A*E+40);
+        System.out.println("A expressão é: " + exp3);
+        boolean exp4 = (B*D+A)!=(B*D+20);
+        System.out.println("A expressão é: " + exp4);
+        boolean exp5 = (50-A*E-B+5)<(C+8*C-5);
+        System.out.println("A expressão é: " + exp5);
+        System.out.println(A*(33*10)==A*(30*11));
+        boolean exp6 = (42/B+125)>(167/A-125);
+        System.out.println("A expressão é: " + exp6);
+        boolean exp7 = (657*D+F/4)<=(412-A*557+4);
+        System.out.println("A expressão é: " + exp7);
+        boolean exp8 = (85/D-64/B)>=(85*D-64/B);
+        System.out.println("A expressão é: " + exp8);
+    }
+}
